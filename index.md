@@ -1,37 +1,126 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/xusanlin/linkyun/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        body {
+            background: url(timg1MHDVFRB.jpg) no-repeat;
+            background-size: cover;
+        }
 
-### Markdown
+        .box {
+            width: 1200px;
+            height: 540px;
+            background: rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 7%;
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        }
 
-```markdown
-Syntax highlighted code block
+        .box .left a {
+            display: block;
+            width: 200px;
+            height: 90px;
+            background: rgba(0, 0, 0, 0.2);
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+            padding-left: 30px;
+            line-height: 90px;
+        }
 
-# Header 1
-## Header 2
-### Header 3
+        .box .left a:hover {
+            background-color: #ff6700;
+        }
 
-- Bulleted
-- List
+        .left {
+            float: left;
+            width: 230px;
+            height: 540px;
+            background-color: cadetblue;
+            background: rgba(0, 0, 0, 0.2);
+        }
 
-1. Numbered
-2. List
+        .right {
+            float: right;
+            width: 970px;
+            height: 540px;
+            background-color: rgba(152, 233, 233, 0.2);
+            ;
 
-**Bold** and _Italic_ and `Code` text
+        }
 
-[Link](url) and ![Image](src)
-```
+        .right>div {
+            float: left;
+            width: 470px;
+            height: 540px;
+            background: rgba(0, 0, 0, 0.2);
+            margin-left: 14px;
+            margin-bottom: 14px;
+        }
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        .right .one {
+            background-color: rgb(152, 233, 233, 0.2);
+        }
 
-### Jekyll Themes
+        .right .photo {
+            width: 490px;
+            height: 540px;
+        }
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xusanlin/linkyun/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        .right .one h1 {
+            color: white;
+            font-size: 60px;
+        }
 
-### Support or Contact
+        .right .one p {
+            font-size: 40px;
+            font-weight: 500;
+            color: rgb(148, 241, 248);
+            font-style: italic;
+        }
+    </style>
+</head>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<body>
+    <div class="nav">
+        <a href="#">HOMEPAGE</a>
+        <a href="hi.html" target="_blank">Chris</a>
+        <a href="Andy.html" target="_blank">Andy</a>
+        <a href="juerr.html" target="_blank">Juerr</a>
+        <a href="Christenson.html" target="_blank">Christenson</a>
+        <a href="Kevin.html" target="_blank">Kevin</a>
+    </div>
+    <div class="box">
+        <div class="left">
+            <a href="#">HOMEPAGE</a>
+            <a href="hi.html" target="_blank">Chris</a>
+            <a href="Andy.html" target="_blank">Andy</a>
+            <a href="juerr.html" target="_blank">Juerr</a>
+            <a href="Christenson.html" target="_blank">Christenson</a>
+            <a href="kevin.html" target="_blank">Kevin</a>
+        </div>
+        <div class="right">
+            <div class="one">
+                <h1>About us</h1>
+                <p>We are a group that loves learning and is positive</p>
+                <p>Successful or failing, we should always feel hopeful about the future.</p>
+            </div>
+            <div>
+                <img src="timg1MHDVFRB.jpg" alt="" class="photo">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

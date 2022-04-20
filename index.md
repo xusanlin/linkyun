@@ -4,3 +4,5 @@
 ![微信图片_20220320210500](https://user-images.githubusercontent.com/49253465/159163705-c6ef5d8c-7810-4ac3-92e2-2ee93d413ce3.png)
 
 2. 零件配件上传数据
+通过下载Excel表格
+![image](https://user-images.githubusercontent.com/49253465/164229331-a5c37a05-87d3-4901-ad81-77066327f2b1.png)
